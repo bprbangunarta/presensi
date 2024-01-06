@@ -1,31 +1,34 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>@yield('title')</title>
     <!-- CSS files -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.ninjaxpress.co/favicon/favicon.ico" sizes="32x32">
     <link href="{{ asset('tabler/dist/css/tabler.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-flags.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-payments.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-vendors.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/demo.min.css?1674944402') }}" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
     {{-- Meta Description --}}
     <meta name="description" content="Pencatatan presensi kehadirian karyawan BPR Bangunarta">
     <meta name="keywords" content="BPR Bangunarta, bprbangunarta" />
 
-    <meta content='Aplikasi Presensi' property='og:title'/>
-    <meta content='https://presensi.bprbangunarta.co.id/' property='og:url'/>
-    <meta content='Aplikasi Presensi' property='og:site_name'/>
-    <meta content='website' property='og:type'/>
-    <meta content='Pencatatan presensi kehadirian karyawan BPR Bangunarta' property='og:description'/>
-    <meta content='Aplikasi Presensi' property='og:image:alt'/>
-    <meta content='https://presensi.bprbangunarta.co.id/assets/img/banner.png' property='og:image'/>
+    <meta content='Aplikasi Presensi' property='og:title' />
+    <meta content='https://presensi.bprbangunarta.co.id/' property='og:url' />
+    <meta content='Aplikasi Presensi' property='og:site_name' />
+    <meta content='website' property='og:type' />
+    <meta content='Pencatatan presensi kehadirian karyawan BPR Bangunarta' property='og:description' />
+    <meta content='Aplikasi Presensi' property='og:image:alt' />
+    <meta content='https://presensi.bprbangunarta.co.id/assets/img/banner.png' property='og:image' />
     <style>
         @import url('https://rsms.me/inter/inter.css');
 
@@ -36,9 +39,9 @@
         body {
             font-feature-settings: "cv03", "cv04", "cv11";
         }
-
     </style>
 </head>
+
 <body>
     <script src="{{ asset('tabler/dist/js/demo-theme.min.js?1674944402') }}"></script>
     <div class="page">
@@ -58,13 +61,16 @@
     <script src="{{ asset('tabler/dist/libs/jsvectormap/dist/maps/world.js?1674944402') }}" defer></script>
     <script src="{{ asset('tabler/dist/libs/jsvectormap/dist/maps/world-merc.js?1674944402') }}" defer></script>
     <!-- Tabler Core -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="{{ asset('tabler/dist/js/tabler.min.js?1674944402') }}" defer></script>
     <script src="{{ asset('tabler/dist/js/demo.min.js?1674944402') }}" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     @stack('myscript')
 </body>
+
 </html>

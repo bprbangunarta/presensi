@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title>Login - Presensi</title>
+    <title>Login - Attendance</title>
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/icon/192x192.png') }}">
     <link rel="stylesheet" href="{{ asset('mobile/css/style.css') }}">
@@ -59,7 +59,8 @@
                         <div class="form-group basic">
                             <div class="input-wrapper">
                                 <label class="label" for="email1">NIK</label>
-                                <input type="text" name="nik" class="form-control" id="nik" placeholder="Nomer Induk">
+                                <input type="text" name="nik" class="form-control" id="nik"
+                                    placeholder="Nomer Induk">
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
                                 </i>
@@ -85,16 +86,16 @@
             </form>
 
             @php
-            $messagewarning = Session::get('warning');
+                $messagewarning = Session::get('warning');
             @endphp
             @if (Session::get('warning'))
-            <div class="mt-1">
-                <div class="alert alert-imaged alert-warning" role="alert">
-                    <div>
-                        <strong>{{ $messagewarning }}</strong>
+                <div class="mt-1">
+                    <div class="alert alert-imaged alert-warning" role="alert">
+                        <div>
+                            <strong>{{ $messagewarning }}</strong>
+                        </div>
                     </div>
                 </div>
-            </div>
             @endif
 
         </div>
@@ -103,7 +104,7 @@
 
     <!-- ========= JS Files =========  -->
     <!-- Bootstrap -->
-    <script src="{{ asset('mobile/js/lib/bootstrap.bundle.min.js'); }}"></script>
+    <script src="{{ asset('mobile/js/lib/bootstrap.bundle.min.js') }}"></script>
     <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     <!-- Splide -->
