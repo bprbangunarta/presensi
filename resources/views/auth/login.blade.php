@@ -28,17 +28,9 @@
 </head>
 
 <body class="bg-white">
-
-    <!-- loader -->
-    <div id="loader">
-        <img src="{{ asset('mobile/img/logo-icon.png') }}" alt="icon" class="loading-icon">
-    </div>
-    <!-- * loader -->
-
-
     <!-- App Header -->
     <div class="appHeader bg-primary text-light">
-        <div class="pageTitle">PRESENSI</div>
+        <div class="pageTitle">ATTENDANCE</div>
         <div class="right"></div>
     </div>
     <!-- * App Header -->
@@ -48,7 +40,7 @@
 
         <div class="section mt-2 text-center">
             <h1>Log in</h1>
-            <h4>E-Presensi BPR Bangunarta</h4>
+            <h4>ATTENDANCE APP</h4>
         </div>
 
         <div class="section mb-5 p-2">
