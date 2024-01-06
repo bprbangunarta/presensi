@@ -32,12 +32,6 @@
 </head>
 
 <body style="background-color:#e9ecef;">
-
-    <div id="loader">
-        <img src="{{ asset('mobile/img/logo-icon.png') }}" alt="icon" class="loading-icon">
-    </div>
-    <!-- * loader -->
-
     @yield('header')
 
     <!-- App Capsule -->
