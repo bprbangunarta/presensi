@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <!-- App Header -->
     <div class="appHeader bg-primary text-light">
         <div class="left">

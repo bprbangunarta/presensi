@@ -33,11 +33,6 @@
 
 <body style="background-color:#e9ecef;">
 
-    <!-- loader -->
-    {{-- <div id="loader">
-        <div class="spinner-border text-primary" role="status"></div>
-    </div> --}}
-
     <div id="loader">
         <img src="{{ asset('mobile/img/logo-icon.png') }}" alt="icon" class="loading-icon">
     </div>

@@ -13,8 +13,8 @@
                         <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged  w36">
                     </div>
                     <div class="in">
-                        <strong>{{ Auth::guard('karyawan')->user()->nama_lengkap; }}</strong>
-                        <div class="text-muted">{{ Auth::guard('karyawan')->user()->nik; }}</div>
+                        <strong>{{ Auth::guard('karyawan')->user()->nama_lengkap }}</strong>
+                        <div class="text-muted">{{ Auth::guard('karyawan')->user()->nik }}</div>
                     </div>
                     <a href="#" class="btn btn-link btn-icon sidebar-close" data-bs-dismiss="modal">
                         <ion-icon name="close-outline"></ion-icon>
