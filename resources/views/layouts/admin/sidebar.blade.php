@@ -6,8 +6,8 @@
         </button>
         <h1 class="navbar-brand navbar-brand-autodark">
             <a href=".">
-                <img src="https://seeklogo.com/images/N/ninja-xpress-logo-860168EFBE-seeklogo.com.png" width="110"
-                    height="32" alt="Tabler" class="navbar-brand-image">
+                <img src="https://www.ninjaxpress.co/static/b501796a1d9d16c06de9b2695e052787/8f9f5/ninjaxpress-logo-white.webp"
+                    width="110" height="32" alt="Tabler" class="navbar-brand-image">
             </a>
         </h1>
         <div class="navbar-nav flex-row d-lg-none">
