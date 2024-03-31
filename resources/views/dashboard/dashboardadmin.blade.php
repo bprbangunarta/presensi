@@ -14,10 +14,10 @@
                             <div class="row g-2 align-items-center">
                                 <div class="col">
                                     <div class="page-pretitle">
-                                    Home
+                                        Home
                                     </div>
                                     <h2 class="page-title">
-                                    Dashboard
+                                        Dashboard
                                     </h2>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+
                             <div class="col-md-6 col-xl-3">
                                 <div class="card card-sm">
                                     <div class="card-body">
@@ -85,7 +85,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+
                             <div class="col-md-6 col-xl-3">
                                 <div class="card card-sm">
                                     <div class="card-body">
@@ -113,7 +113,7 @@
                                     </div>
                                 </div>
                             </div>
-                
+
                             <div class="col-md-6 col-xl-3">
                                 <div class="card card-sm">
                                     <div class="card-body">
@@ -142,45 +142,46 @@
                             </div>
                         </div>
                         <br>
-                
+
                         <div class="col-12">
                             <div class="card card-md">
-                              <div class="card-stamp card-stamp-lg">
-                                <div class="card-stamp-icon bg-primary">
-                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7"></path>
-                                    <path d="M10 10l.01 0"></path>
-                                    <path d="M14 10l.01 0"></path>
-                                    <path d="M10 14a3.5 3.5 0 0 0 4 0"></path>
-                                  </svg>
-                                </div>
-                              </div>
-                              <div class="card-body">
-                                <div class="row align-items-center">
-                                  <div class="col-10">
-                                    <h3 class="h1">Aplikasi Presensi</h3>
-                                    <div class="markdown text-muted">
-                                      Presensi tidak bisa dilakukan diluar radius kantor sehingga dapat membantu perusahaan dalam
-                                      memastikan keakuratan data kehadiran karyawan disetiap kantor.<p><p/>
-                                      <p>Password default: <b>12345</b></p>
-                                    </div>
-                                    <div class="mt-3 mb-3">
-                                      <a href="https://presensi.bprbangunarta.co.id/apk/presensi_v1.0.apk" class="btn btn-primary" target="_blank" rel="noopener">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                          <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                          <path d="M7 11l5 5l5 -5"></path>
-                                          <path d="M12 4l0 12"></path>
+                                <div class="card-stamp card-stamp-lg">
+                                    <div class="card-stamp-icon bg-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7"></path>
+                                            <path d="M10 10l.01 0"></path>
+                                            <path d="M14 10l.01 0"></path>
+                                            <path d="M10 14a3.5 3.5 0 0 0 4 0"></path>
                                         </svg>
-                                        Download APK</a>
                                     </div>
-                                    <div class="markdown text-muted">
-                                      
-                                    </div>
-                                  </div>
                                 </div>
-                              </div>
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-10">
+                                            <h3 class="h1">Aplikasi Presensi</h3>
+                                            <div class="markdown text-muted">
+                                                Presensi tidak bisa dilakukan diluar radius kantor sehingga dapat membantu perusahaan dalam
+                                                memastikan keakuratan data kehadiran karyawan disetiap kantor.<p>
+                                                    <p />
+                                                <p>Password default: <b>12345</b></p>
+                                            </div>
+                                            <div class="mt-3 mb-3">
+                                                <a href="{{ asset('apk/Attendance_1_1.0.apk') }}" class="btn btn-primary" target="_blank" rel="noopener">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                                                        <path d="M7 11l5 5l5 -5"></path>
+                                                        <path d="M12 4l0 12"></path>
+                                                    </svg>
+                                                    Download APK</a>
+                                            </div>
+                                            <div class="markdown text-muted">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
