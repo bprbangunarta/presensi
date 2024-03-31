@@ -19,7 +19,7 @@
             <span class="badge {{ $d->jam_in < $d->jam_masuk ? " bg-success" : "bg-danger" }}">
                 {{ $d->jam_in }}
             </span>
-            <span class="badge bg-primary">{{ $d->jam_out }}</span>
+            <span class="badge bg-warning">{{ $d->jam_out }}</span>
         </div>
     </div>
 </li>

@@ -108,7 +108,7 @@
                                     </select>
                                 </td>
                             </tr>
-                            {{-- <tr>
+                            <tr>
                                 <td>Sabtu
                                     <input type="hidden" name="hari[]" value="Sabtu">
                                 </td>
@@ -120,7 +120,7 @@
                                         @endforeach
                                     </select>
                                 </td>
-                            </tr> --}}
+                            </tr>
 
                         </tbody>
                     </table>

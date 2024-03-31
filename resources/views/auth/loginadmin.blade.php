@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login - Administrator</title>
     <!-- CSS files -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.ninjaxpress.co/favicon/favicon.ico" sizes="32x32">
     <link href="{{ asset('tabler/dist/css/tabler.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-flags.min.css?1674944402') }}" rel="stylesheet" />
     <link href="{{ asset('tabler/dist/css/tabler-payments.min.css?1674944402') }}" rel="stylesheet" />
@@ -22,16 +22,16 @@
     <link href="{{ asset('tabler/dist/css/demo.min.css?1674944402') }}" rel="stylesheet" />
     
     {{-- Meta Description --}}
-    <meta name="description" content="Pencatatan presensi kehadirian karyawan BPR Bangunarta">
-    <meta name="keywords" content="BPR Bangunarta, bprbangunarta" />
+    <meta name="description" content="Pencatatan kehadirian karyawan Ninja Express">
+    <meta name="keywords" content="Ninja Express" />
 
     <meta content='Aplikasi Presensi' property='og:title'/>
     <meta content='https://presensi.bprbangunarta.co.id/' property='og:url'/>
     <meta content='Aplikasi Presensi' property='og:site_name'/>
     <meta content='website' property='og:type'/>
-    <meta content='Pencatatan presensi kehadirian karyawan BPR Bangunarta' property='og:description'/>
+    <meta content='Pencatatan kehadirian karyawan Ninja Express' property='og:description'/>
     <meta content='Aplikasi Presensi' property='og:image:alt'/>
-    <meta content='https://presensi.bprbangunarta.co.id/assets/img/banner.png' property='og:image'/>
+    <meta content='https://media.suara.com/pictures/970x544/2021/05/22/38015-cara-cek-resi-ninja-xpress.jpg' property='og:image'/>
     <style>
         @import url('https://rsms.me/inter/inter.css');
 
